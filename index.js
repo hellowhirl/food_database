@@ -20,9 +20,8 @@ function showRecipes(jsonObj) {
 
     recipeName.textContent = masterList[i].name;
 
-    // recipeImage.src = `recipe_images/${masterList[i].image}.jpg`;
-    recipeImage.src = "/recipe_images/egg_avocado_salad.jpg";
-
+    const imagePath = `recipe_images/${masterList[i].image}.jpg`;
+    recipeImage.src = imagePath;
 
 
     recipeInstructions.textContent = masterList[i].instructions;

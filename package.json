@@ -6,9 +6,10 @@
   "author": "Me",
   "license": "MIT",
   "devDependencies": {
-    "@babel/preset-env": "^7.1.0"
+    "@babel/preset-env": "^7.1.0",
+    "parcel-plugin-static-files-copy": "^1.2.4"
   },
   "scripts": {
-    "start": "parcel index.html --log-level 4"
+    "start": "parcel index.html --log-level 3"
   }
 }
